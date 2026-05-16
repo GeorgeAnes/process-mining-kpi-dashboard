@@ -1,0 +1,141 @@
+case_id,activity,timestamp,resource,department,cost,priority,sla_hours,customer_segment
+INC-1001,Ticket Created,2026-04-01 08:00,Service Desk A,Service Desk,12,P1,8,Enterprise
+INC-1001,Triage,2026-04-01 08:15,Service Desk A,Service Desk,18,P1,8,Enterprise
+INC-1001,Assign Team,2026-04-01 08:45,Coordinator 1,Service Desk,12,P1,8,Enterprise
+INC-1001,Diagnose,2026-04-01 09:30,Engineer N1,Network Operations,75,P1,8,Enterprise
+INC-1001,Resolve,2026-04-01 13:00,Engineer N1,Network Operations,120,P1,8,Enterprise
+INC-1001,Customer Confirmation,2026-04-01 14:00,Service Desk A,Service Desk,15,P1,8,Enterprise
+INC-1001,Close Ticket,2026-04-01 14:15,Service Desk A,Service Desk,8,P1,8,Enterprise
+INC-1002,Ticket Created,2026-04-01 09:10,Service Desk B,Service Desk,12,P2,24,SMB
+INC-1002,Triage,2026-04-01 10:00,Service Desk B,Service Desk,18,P2,24,SMB
+INC-1002,Assign Team,2026-04-01 12:00,Coordinator 2,Service Desk,12,P2,24,SMB
+INC-1002,Diagnose,2026-04-01 16:00,Engineer A1,Application Support,85,P2,24,SMB
+INC-1002,Vendor Escalation,2026-04-02 09:00,Vendor Liaison,Application Support,140,P2,24,SMB
+INC-1002,Resolve,2026-04-02 15:00,Engineer A1,Application Support,110,P2,24,SMB
+INC-1002,Customer Confirmation,2026-04-02 17:00,Service Desk B,Service Desk,15,P2,24,SMB
+INC-1002,Close Ticket,2026-04-02 17:30,Service Desk B,Service Desk,8,P2,24,SMB
+INC-1003,Ticket Created,2026-04-02 08:40,Service Desk C,Service Desk,12,P3,72,Public Sector
+INC-1003,Triage,2026-04-02 10:00,Service Desk C,Service Desk,18,P3,72,Public Sector
+INC-1003,Assign Team,2026-04-02 11:30,Coordinator 1,Service Desk,12,P3,72,Public Sector
+INC-1003,Diagnose,2026-04-02 15:00,Engineer W1,Workplace Services,70,P3,72,Public Sector
+INC-1003,Resolve,2026-04-03 10:00,Engineer W1,Workplace Services,90,P3,72,Public Sector
+INC-1003,Customer Confirmation,2026-04-03 14:00,Service Desk C,Service Desk,15,P3,72,Public Sector
+INC-1003,Close Ticket,2026-04-03 14:30,Service Desk C,Service Desk,8,P3,72,Public Sector
+INC-1004,Ticket Created,2026-04-02 13:00,Service Desk A,Service Desk,12,P2,24,Enterprise
+INC-1004,Triage,2026-04-02 13:25,Service Desk A,Service Desk,18,P2,24,Enterprise
+INC-1004,Assign Team,2026-04-02 14:00,Coordinator 3,Service Desk,12,P2,24,Enterprise
+INC-1004,Diagnose,2026-04-02 16:30,Engineer S1,Security Operations,95,P2,24,Enterprise
+INC-1004,Manager Approval,2026-04-03 10:30,Service Manager,Security Operations,65,P2,24,Enterprise
+INC-1004,Resolve,2026-04-03 15:00,Engineer S1,Security Operations,120,P2,24,Enterprise
+INC-1004,Customer Confirmation,2026-04-03 18:00,Service Desk A,Service Desk,15,P2,24,Enterprise
+INC-1004,Close Ticket,2026-04-03 18:20,Service Desk A,Service Desk,8,P2,24,Enterprise
+INC-1005,Ticket Created,2026-04-03 08:05,Service Desk B,Service Desk,12,P1,8,Enterprise
+INC-1005,Triage,2026-04-03 08:20,Service Desk B,Service Desk,18,P1,8,Enterprise
+INC-1005,Assign Team,2026-04-03 08:45,Coordinator 2,Service Desk,12,P1,8,Enterprise
+INC-1005,Diagnose,2026-04-03 09:10,Engineer N2,Network Operations,75,P1,8,Enterprise
+INC-1005,Vendor Escalation,2026-04-03 11:30,Vendor Liaison,Network Operations,135,P1,8,Enterprise
+INC-1005,Resolve,2026-04-03 17:45,Engineer N2,Network Operations,130,P1,8,Enterprise
+INC-1005,Customer Confirmation,2026-04-03 18:10,Service Desk B,Service Desk,15,P1,8,Enterprise
+INC-1005,Close Ticket,2026-04-03 18:25,Service Desk B,Service Desk,8,P1,8,Enterprise
+INC-1006,Ticket Created,2026-04-03 11:00,Service Desk C,Service Desk,12,P3,72,SMB
+INC-1006,Triage,2026-04-03 13:00,Service Desk C,Service Desk,18,P3,72,SMB
+INC-1006,Assign Team,2026-04-03 16:00,Coordinator 1,Service Desk,12,P3,72,SMB
+INC-1006,Diagnose,2026-04-04 10:00,Engineer A2,Application Support,85,P3,72,SMB
+INC-1006,Resolve,2026-04-04 16:00,Engineer A2,Application Support,95,P3,72,SMB
+INC-1006,Customer Confirmation,2026-04-06 09:00,Service Desk C,Service Desk,15,P3,72,SMB
+INC-1006,Close Ticket,2026-04-06 09:45,Service Desk C,Service Desk,8,P3,72,SMB
+INC-1007,Ticket Created,2026-04-04 09:20,Service Desk A,Service Desk,12,P2,24,Public Sector
+INC-1007,Triage,2026-04-04 09:50,Service Desk A,Service Desk,18,P2,24,Public Sector
+INC-1007,Assign Team,2026-04-04 10:30,Coordinator 3,Service Desk,12,P2,24,Public Sector
+INC-1007,Diagnose,2026-04-04 12:00,Engineer W2,Workplace Services,70,P2,24,Public Sector
+INC-1007,Resolve,2026-04-04 16:00,Engineer W2,Workplace Services,90,P2,24,Public Sector
+INC-1007,Customer Confirmation,2026-04-04 17:00,Service Desk A,Service Desk,15,P2,24,Public Sector
+INC-1007,Reopen Ticket,2026-04-05 09:00,Service Desk A,Service Desk,20,P2,24,Public Sector
+INC-1007,Diagnose,2026-04-05 11:30,Engineer W2,Workplace Services,80,P2,24,Public Sector
+INC-1007,Resolve,2026-04-05 14:00,Engineer W2,Workplace Services,90,P2,24,Public Sector
+INC-1007,Customer Confirmation,2026-04-05 16:00,Service Desk A,Service Desk,15,P2,24,Public Sector
+INC-1007,Close Ticket,2026-04-05 16:20,Service Desk A,Service Desk,8,P2,24,Public Sector
+INC-1008,Ticket Created,2026-04-05 07:30,Service Desk B,Service Desk,12,P1,8,Enterprise
+INC-1008,Triage,2026-04-05 07:45,Service Desk B,Service Desk,18,P1,8,Enterprise
+INC-1008,Assign Team,2026-04-05 08:00,Coordinator 2,Service Desk,12,P1,8,Enterprise
+INC-1008,Diagnose,2026-04-05 08:40,Engineer S2,Security Operations,95,P1,8,Enterprise
+INC-1008,Resolve,2026-04-05 12:30,Engineer S2,Security Operations,115,P1,8,Enterprise
+INC-1008,Customer Confirmation,2026-04-05 13:00,Service Desk B,Service Desk,15,P1,8,Enterprise
+INC-1008,Close Ticket,2026-04-05 13:15,Service Desk B,Service Desk,8,P1,8,Enterprise
+INC-1009,Ticket Created,2026-04-06 10:00,Service Desk C,Service Desk,12,P2,24,SMB
+INC-1009,Triage,2026-04-06 11:10,Service Desk C,Service Desk,18,P2,24,SMB
+INC-1009,Assign Team,2026-04-06 13:30,Coordinator 1,Service Desk,12,P2,24,SMB
+INC-1009,Diagnose,2026-04-06 16:30,Engineer A1,Application Support,85,P2,24,SMB
+INC-1009,Manager Approval,2026-04-07 12:30,Service Manager,Application Support,65,P2,24,SMB
+INC-1009,Resolve,2026-04-07 18:30,Engineer A1,Application Support,115,P2,24,SMB
+INC-1009,Customer Confirmation,2026-04-08 10:00,Service Desk C,Service Desk,15,P2,24,SMB
+INC-1009,Close Ticket,2026-04-08 10:30,Service Desk C,Service Desk,8,P2,24,SMB
+INC-1010,Ticket Created,2026-04-06 14:00,Service Desk A,Service Desk,12,P3,72,Enterprise
+INC-1010,Triage,2026-04-06 15:00,Service Desk A,Service Desk,18,P3,72,Enterprise
+INC-1010,Assign Team,2026-04-06 17:00,Coordinator 3,Service Desk,12,P3,72,Enterprise
+INC-1010,Diagnose,2026-04-07 10:00,Engineer N1,Network Operations,75,P3,72,Enterprise
+INC-1010,Resolve,2026-04-07 14:00,Engineer N1,Network Operations,90,P3,72,Enterprise
+INC-1010,Customer Confirmation,2026-04-07 16:00,Service Desk A,Service Desk,15,P3,72,Enterprise
+INC-1010,Close Ticket,2026-04-07 16:45,Service Desk A,Service Desk,8,P3,72,Enterprise
+INC-1011,Ticket Created,2026-04-07 08:30,Service Desk B,Service Desk,12,P2,24,Enterprise
+INC-1011,Triage,2026-04-07 09:15,Service Desk B,Service Desk,18,P2,24,Enterprise
+INC-1011,Assign Team,2026-04-07 10:00,Coordinator 2,Service Desk,12,P2,24,Enterprise
+INC-1011,Diagnose,2026-04-07 13:00,Engineer W1,Workplace Services,70,P2,24,Enterprise
+INC-1011,Resolve,2026-04-07 15:30,Engineer W1,Workplace Services,85,P2,24,Enterprise
+INC-1011,Customer Confirmation,2026-04-07 17:30,Service Desk B,Service Desk,15,P2,24,Enterprise
+INC-1011,Close Ticket,2026-04-07 18:00,Service Desk B,Service Desk,8,P2,24,Enterprise
+INC-1012,Ticket Created,2026-04-07 12:20,Service Desk C,Service Desk,12,P1,8,Public Sector
+INC-1012,Triage,2026-04-07 12:40,Service Desk C,Service Desk,18,P1,8,Public Sector
+INC-1012,Assign Team,2026-04-07 13:15,Coordinator 1,Service Desk,12,P1,8,Public Sector
+INC-1012,Diagnose,2026-04-07 15:00,Engineer S1,Security Operations,95,P1,8,Public Sector
+INC-1012,Manager Approval,2026-04-07 18:00,Service Manager,Security Operations,65,P1,8,Public Sector
+INC-1012,Resolve,2026-04-08 09:30,Engineer S1,Security Operations,120,P1,8,Public Sector
+INC-1012,Customer Confirmation,2026-04-08 11:00,Service Desk C,Service Desk,15,P1,8,Public Sector
+INC-1012,Close Ticket,2026-04-08 11:20,Service Desk C,Service Desk,8,P1,8,Public Sector
+INC-1013,Ticket Created,2026-04-08 09:00,Service Desk A,Service Desk,12,P2,24,SMB
+INC-1013,Triage,2026-04-08 09:35,Service Desk A,Service Desk,18,P2,24,SMB
+INC-1013,Assign Team,2026-04-08 10:10,Coordinator 3,Service Desk,12,P2,24,SMB
+INC-1013,Diagnose,2026-04-08 12:30,Engineer N2,Network Operations,75,P2,24,SMB
+INC-1013,Resolve,2026-04-08 16:00,Engineer N2,Network Operations,90,P2,24,SMB
+INC-1013,Customer Confirmation,2026-04-09 09:00,Service Desk A,Service Desk,15,P2,24,SMB
+INC-1013,Close Ticket,2026-04-09 09:30,Service Desk A,Service Desk,8,P2,24,SMB
+INC-1014,Ticket Created,2026-04-08 11:45,Service Desk B,Service Desk,12,P3,72,Enterprise
+INC-1014,Triage,2026-04-08 12:30,Service Desk B,Service Desk,18,P3,72,Enterprise
+INC-1014,Assign Team,2026-04-08 15:00,Coordinator 2,Service Desk,12,P3,72,Enterprise
+INC-1014,Diagnose,2026-04-09 09:30,Engineer A2,Application Support,85,P3,72,Enterprise
+INC-1014,Knowledge Base Update,2026-04-09 13:30,Engineer A2,Application Support,45,P3,72,Enterprise
+INC-1014,Resolve,2026-04-09 16:30,Engineer A2,Application Support,95,P3,72,Enterprise
+INC-1014,Customer Confirmation,2026-04-10 10:30,Service Desk B,Service Desk,15,P3,72,Enterprise
+INC-1014,Close Ticket,2026-04-10 11:00,Service Desk B,Service Desk,8,P3,72,Enterprise
+INC-1015,Ticket Created,2026-04-09 08:10,Service Desk C,Service Desk,12,P2,24,Public Sector
+INC-1015,Triage,2026-04-09 08:50,Service Desk C,Service Desk,18,P2,24,Public Sector
+INC-1015,Assign Team,2026-04-09 10:00,Coordinator 1,Service Desk,12,P2,24,Public Sector
+INC-1015,Diagnose,2026-04-09 12:00,Engineer S2,Security Operations,95,P2,24,Public Sector
+INC-1015,Resolve,2026-04-09 15:00,Engineer S2,Security Operations,115,P2,24,Public Sector
+INC-1015,Customer Confirmation,2026-04-09 16:00,Service Desk C,Service Desk,15,P2,24,Public Sector
+INC-1015,Reopen Ticket,2026-04-10 09:00,Service Desk C,Service Desk,20,P2,24,Public Sector
+INC-1015,Diagnose,2026-04-10 13:00,Engineer S2,Security Operations,95,P2,24,Public Sector
+INC-1015,Resolve,2026-04-10 18:30,Engineer S2,Security Operations,120,P2,24,Public Sector
+INC-1015,Customer Confirmation,2026-04-11 11:30,Service Desk C,Service Desk,15,P2,24,Public Sector
+INC-1015,Close Ticket,2026-04-11 12:00,Service Desk C,Service Desk,8,P2,24,Public Sector
+INC-1016,Ticket Created,2026-04-10 07:55,Service Desk A,Service Desk,12,P1,8,Enterprise
+INC-1016,Triage,2026-04-10 08:05,Service Desk A,Service Desk,18,P1,8,Enterprise
+INC-1016,Assign Team,2026-04-10 08:20,Coordinator 3,Service Desk,12,P1,8,Enterprise
+INC-1016,Diagnose,2026-04-10 09:00,Engineer N1,Network Operations,75,P1,8,Enterprise
+INC-1016,Resolve,2026-04-10 11:45,Engineer N1,Network Operations,105,P1,8,Enterprise
+INC-1016,Customer Confirmation,2026-04-10 12:20,Service Desk A,Service Desk,15,P1,8,Enterprise
+INC-1016,Close Ticket,2026-04-10 12:35,Service Desk A,Service Desk,8,P1,8,Enterprise
+INC-1017,Ticket Created,2026-04-10 10:30,Service Desk B,Service Desk,12,P3,72,SMB
+INC-1017,Triage,2026-04-10 11:30,Service Desk B,Service Desk,18,P3,72,SMB
+INC-1017,Assign Team,2026-04-10 14:30,Coordinator 2,Service Desk,12,P3,72,SMB
+INC-1017,Diagnose,2026-04-13 09:00,Engineer W2,Workplace Services,70,P3,72,SMB
+INC-1017,Resolve,2026-04-13 15:00,Engineer W2,Workplace Services,90,P3,72,SMB
+INC-1017,Customer Confirmation,2026-04-14 11:30,Service Desk B,Service Desk,15,P3,72,SMB
+INC-1017,Close Ticket,2026-04-14 12:00,Service Desk B,Service Desk,8,P3,72,SMB
+INC-1018,Ticket Created,2026-04-11 09:15,Service Desk C,Service Desk,12,P2,24,Enterprise
+INC-1018,Triage,2026-04-11 10:00,Service Desk C,Service Desk,18,P2,24,Enterprise
+INC-1018,Assign Team,2026-04-11 11:00,Coordinator 1,Service Desk,12,P2,24,Enterprise
+INC-1018,Diagnose,2026-04-11 14:00,Engineer A1,Application Support,85,P2,24,Enterprise
+INC-1018,Resolve,2026-04-11 19:00,Engineer A1,Application Support,105,P2,24,Enterprise
+INC-1018,Customer Confirmation,2026-04-12 09:30,Service Desk C,Service Desk,15,P2,24,Enterprise
+INC-1018,Close Ticket,2026-04-12 10:00,Service Desk C,Service Desk,8,P2,24,Enterprise
