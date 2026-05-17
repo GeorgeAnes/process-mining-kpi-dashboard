@@ -1,8 +1,14 @@
 # Process Mining KPI Dashboard
 
-A local process-mining and KPI dashboard for IT service ticket event logs. The project demonstrates event-log analytics, SLA monitoring, bottleneck detection, variant analysis, rework analysis, and executive reporting in a consulting-style dashboard.
+A local process-mining and KPI dashboard for IT service ticket event logs. The project demonstrates event-log analytics, SLA monitoring, bottleneck detection, variant analysis, rework analysis, and executive reporting through a retro Windows 95/98-inspired enterprise operations workstation UI.
 
-![Dashboard screenshot](docs/screenshot-dashboard.png)
+## Screenshots
+
+![Retro desktop workstation](docs/screenshots/desktop.png)
+
+![Operations overview window](docs/screenshots/overview.png)
+
+![Bottleneck analysis window](docs/screenshots/bottlenecks.png)
 
 ## Portfolio Relevance
 
@@ -11,6 +17,10 @@ This repo shows how raw operational event logs can be turned into management-rea
 ## Why Process Mining Matters
 
 Business transformation teams often need to understand how work actually flows, not only how a process is documented. Event logs make it possible to quantify delays, process variation, SLA leakage, and rework so improvement discussions are grounded in evidence.
+
+## UI Concept
+
+The interface is designed as a serious legacy corporate process-monitoring workstation. Instead of one crowded dashboard, the app uses module-based windows for process-mining views: throughput, bottlenecks, SLA, variants, rework, and executive report. The retro shell is visual polish only; the analytics remain deterministic and backend-driven.
 
 ## Demo in 3 Minutes
 
@@ -29,7 +39,7 @@ npm.cmd install
 npm.cmd run dev
 ```
 
-Open `http://127.0.0.1:5174`. The included synthetic IT service event log loads automatically. The Vite dev server proxies `/api` requests to the backend on port `8020`.
+Open `http://127.0.0.1:5174/desktop`. The included synthetic IT service event log loads automatically. The Vite dev server proxies `/api` requests to the backend on port `8020`.
 
 ## Architecture
 
