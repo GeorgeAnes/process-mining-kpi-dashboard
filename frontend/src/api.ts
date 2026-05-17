@@ -14,6 +14,10 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+export function checkHealth(): Promise<{ status: string }> {
+  return request<{ status: string }>("/health");
+}
+
 export function listDatasets(): Promise<DatasetInfo[]> {
   return request<DatasetInfo[]>("/datasets");
 }
